@@ -1,3 +1,4 @@
 
 motion-sensor.ini
 logs/*.log
+*.pyc
