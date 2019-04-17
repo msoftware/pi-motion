@@ -1,0 +1,238 @@
+# German (Germany) translations for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-04-17 13:31+0200\n"
+"PO-Revision-Date: 2019-04-17 13:31+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de_DE\n"
+"Language-Team: de_DE <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: /home/pi/pi-motion/bot.py:69
+msgid "Motion detected."
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:85 /home/pi/pi-motion/bot.py:151
+#: /home/pi/pi-motion/bot.py:169 /home/pi/pi-motion/bot.py:175
+msgid "Sorry, but I don't understand."
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:100
+msgid "Login OK"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:101 /home/pi/pi-motion/bot.py:176
+#: /home/pi/pi-motion/bot.py:234
+msgid "If you need support just enter /help"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:107
+msgid "Invalid login. Please try again"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:111 /home/pi/pi-motion/bot.py:144
+msgid "yes"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:112
+msgid "Logout successful"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:116
+msgid "Logout cancelled"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:126
+msgid "Configuration values in section "
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:134
+msgid "Sorry, invalid section. Enter /list and try again."
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:146
+msgid "Motion sensor notification enabled"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:147
+msgid "no"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:149
+msgid "Motion sensor notification disabled"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:159
+msgid "on"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:161
+msgid "Switch light on"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:162
+msgid "off"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:164
+msgid "Switch light off"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:165
+msgid "motion"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:167
+msgid "Switch light on in case of motion detection"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:234
+msgid "Welcome to the the world's smartest motion tracker."
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:239
+msgid "Bot is up and running since "
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:244
+msgid "Light"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:245
+msgid "Chat"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:252
+msgid "On"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:253
+msgid "Off"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:254
+msgid "Motion"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:258
+msgid "Switch light?"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:264
+msgid "I can help youe with your motion sensor."
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:265
+msgid "You can control me by sending these commands:"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:266
+msgid "/login - You have to login before you can use me"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:267
+msgid "/logout - Logout from the motion sensor"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:268
+msgid "/notification - Enable/disable motion sensor notifications"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:269
+msgid "/list - Show motion sensor configuration"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:270
+msgid "/light - Switch on/off the light"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:271
+msgid "/status - Get current status of ther motion sensor"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:272
+msgid "/restart - In case of problems, you can restart the motion sensor"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:273
+msgid "/photo - Capture a photo from the camera"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:274
+msgid "/video - Capture a short video from the camera"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:281
+msgid "Photo:"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:284
+msgid "Video:"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:286
+msgid "Camera is disabled by configurataion."
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:288
+msgid "Error convertig video file:"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:294
+msgid "Please wait a moment until the photo is taken"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:301
+msgid "Please wait a moment. Video capturing will be performed"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:309 /home/pi/pi-motion/bot.py:334
+msgid "Yes"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:310 /home/pi/pi-motion/bot.py:335
+msgid "No"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:314
+msgid "Do you want to get notified in case of motion detection?"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:322
+msgid "Which section of the configuration do you want to inspect?"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:329
+msgid "Enter your password:"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:339
+msgid "Do you want to logout?"
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:342
+msgid "You are not logged in. You don't need to logout."
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:346
+msgid "Exit done. Restart will occur now."
+msgstr ""
+
+#: /home/pi/pi-motion/bot.py:387
+msgid "Login required. Please /login first."
+msgstr ""
+
+#: /home/pi/pi-motion/demo.py:5
+msgid "Hello world!"
+msgstr ""
+

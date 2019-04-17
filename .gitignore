@@ -1,4 +1,7 @@
-
+demo.py
 motion-sensor.ini
 logs/*.log
 *.pyc
+media/*.jpg
+media/*.mp4
+media/*.h264

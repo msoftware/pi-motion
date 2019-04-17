@@ -24,3 +24,6 @@ pip install qhue
 
 echo Install python package "telegram bot"
 pip install python-telegram-bot
+
+echo Install python package "i18n"
+pip install i18n
