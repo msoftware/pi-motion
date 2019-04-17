@@ -343,7 +343,7 @@ class TelegramBot (threading.Thread):
 
     def handleExit(self, update):
         if self.isLoggedIn(update):
-            update.message.reply_text(self.tr._("Exit done. Restart will occur now."))
+            update.message.reply_text(self.tr._("Restart will occur now."))
             self.bot.get_updates( offset=self.offset, timeout=1, network_delay=1)
             self.running = 0
             self.pirThread.quit()

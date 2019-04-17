@@ -225,8 +225,8 @@ msgid "You are not logged in. You don't need to logout."
 msgstr "You are not logged in. You don't need to logout."
 
 #: /home/pi/pi-motion/bot.py:346
-msgid "Exit done. Restart will occur now."
-msgstr "Exit done. Restart will occur now."
+msgid "Restart will occur now."
+msgstr "Restart will occur now."
 
 #: /home/pi/pi-motion/bot.py:387
 msgid "Login required. Please /login first."
