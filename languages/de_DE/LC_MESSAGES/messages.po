@@ -38,7 +38,7 @@ msgstr "Wenn du Unterstützung brauchst, gib einfach /help ein."
 
 #: /home/pi/pi-motion/bot.py:107
 msgid "Invalid login. Please try again"
-msgstr "Ungültige Anmeldung. Bitte versuchen Sie es erneut"
+msgstr "Ungültige Anmeldung. Bitte noch einmal versuchen"
 
 #: /home/pi/pi-motion/bot.py:111 /home/pi/pi-motion/bot.py:144
 msgid "yes"
@@ -58,7 +58,7 @@ msgstr "Konfigurationswerte in Abschnitt "
 
 #: /home/pi/pi-motion/bot.py:134
 msgid "Sorry, invalid section. Enter /list and try again."
-msgstr "Sorry, ungültiger Abschnitt. Geben Sie /list ein und versuchen Sie es erneut."
+msgstr "Sorry, ungültiger Abschnitt. Bitte /list eingeben und erneut versuchen."
 
 #: /home/pi/pi-motion/bot.py:146
 msgid "Motion sensor notification enabled"
@@ -162,7 +162,7 @@ msgstr "/status - Abrufen des aktuellen Status des Bewegungsmelders"
 
 #: /home/pi/pi-motion/bot.py:272
 msgid "/restart - In case of problems, you can restart the motion sensor"
-msgstr "/restart - Im Falle von Problemen können Sie den Bewegungsmelder neu starten."
+msgstr "/restart - Im Falle von Problemen kann der Bewegungsmelder neu gestartet werden."
 
 #: /home/pi/pi-motion/bot.py:273
 msgid "/photo - Capture a photo"
@@ -206,11 +206,11 @@ msgstr "Nein"
 
 #: /home/pi/pi-motion/bot.py:314
 msgid "Do you want to get notified in case of motion detection?"
-msgstr "Möchten Sie im Falle einer Bewegungserkennung benachrichtigt werden?"
+msgstr "Bei Bewegungserkennung eine Benachrichtigung erhalten?"
 
 #: /home/pi/pi-motion/bot.py:322
 msgid "Which section of the configuration do you want to inspect?"
-msgstr "Welchen Abschnitt der Konfiguration möchten Sie überprüfen?"
+msgstr "Welcher Abschnitt der Konfiguration soll überprüft werden?"
 
 #: /home/pi/pi-motion/bot.py:329
 msgid "Enter your password:"

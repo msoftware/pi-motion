@@ -270,8 +270,8 @@ class TelegramBot (threading.Thread):
                                   self.tr._("/light - Switch on/off the light") + "\r\n" + 
                                   self.tr._("/status - Get current status of ther motion sensor") + "\r\n" + 
                                   self.tr._("/restart - In case of problems, you can restart the motion sensor") + "\r\n" + 
-                                  self.tr._("/photo - Capture a photo from the camera") + "\r\n" + 
-                                  self.tr._("/video - Capture a short video from the camera") + "\r\n")
+                                  self.tr._("/photo - Capture a photo") + "\r\n" + 
+                                  self.tr._("/video - Capture a short video") + "\r\n")
 
     def camHandler(self, filename, chat_id, type):
         self.logger.info("camHandler chat_id: " + str(chat_id) + " filename: " + str(filename) + " type: " + str(type))
