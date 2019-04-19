@@ -100,6 +100,8 @@ class CamThread (threading.Thread):
                         finish = time.time() - start
                         self.logger.info('Take photo done (' + str('{:04.2f}'.format(finish)) + 'sec.)!')
                         self.bot.camHandler(camElement.filename, camElement.chat_id, camElement.type)
+                        self.logger.info("Remove : " + camElement.filename)
+                        os.remove(camElement.filename)
                     else:
                         self.bot.camHandler(camElement.filename, camElement.chat_id, "dis")
                 elif camElement.type == "h264":
@@ -118,11 +120,12 @@ class CamThread (threading.Thread):
                         returnCode = int(subprocess.call(cmd, shell=True))
                         if returnCode == 0:
                             self.bot.camHandler(outfile, camElement.chat_id, camElement.type)
-                            os.remove(camElement.filename)
+                            os.remove(outfile)
                         else:
                             self.bot.camHandler(camElement.filename, camElement.chat_id, "err")
                         # Resore video resolution
                         camera.resolution = (self.width, self.height)
+                        os.remove(camElement.filename)
                     else:
                         self.bot.camHandler(camElement.filename, camElement.chat_id, "dis")
                 else:
