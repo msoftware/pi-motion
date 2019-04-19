@@ -214,7 +214,6 @@ class TelegramBot (threading.Thread):
             self.handleMessage(update)
 
     def handleMessage(self, update):
-        print "handleMessage"
         if self.process == TelegramBot.LOGIN:
             self.doProcessLogin(update)
         elif self.process == TelegramBot.LOGOUT: 

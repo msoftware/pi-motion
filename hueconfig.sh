@@ -16,7 +16,11 @@ do
        echo $IP
        echo
        echo "Username:"
-       echo $RESPONSE | jq '.[0].success.username' | sed 's/"//g'
+       USER=`echo $RESPONSE | jq '.[0].success.username' | sed 's/"//g'`
+       echo $USER
+       curl -s http://$IP/api/$USER | jq '.lights' > hue-lamps.txt
+       echo
+       echo "Find lamps info in hue-lamps.txt"
        exit 0
     else
         echo "Fail: Press the hue bridge link button!";
